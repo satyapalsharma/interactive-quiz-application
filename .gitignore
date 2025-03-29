@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build artifacts
+build/
+dist/
+out/
+.next/
+.cache/
+public/build/ # If build output goes into public/build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local # Catch-all for local environment files
+.env.development # Specific mention in project context, but generally .env should be ignored
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+coverage/
+
+# npm package manager files
+package-lock.json # Keep this if you want to ensure exact dependency versions across environments
+# If you prefer to regenerate package-lock.json on each install, uncomment the line below:
+# package-lock.json
+
+# Yarn package manager files
+yarn.lock # Keep this if you want to ensure exact dependency versions across environments
+# If you prefer to regenerate yarn.lock on each install, uncomment the line below:
+# yarn.lock
+
+# Miscellaneous
+*.tgz
+*.swp
+*.swo
+*.bak
+*.orig
+*.patch
+*.diff
+
+# Storybook
+.storybook/out/
+
+# Next.js specific
+.next/
+
+# Vercel / Netlify
+.vercel/
+.netlify/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# ESLint cache
+.eslintcache
+
+# Webpack stats
+webpack-bundle-analyzer/
