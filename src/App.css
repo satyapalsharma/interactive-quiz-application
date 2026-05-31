@@ -1,0 +1,19 @@
+/*
+ * Global Styles for the Interactive Quiz Application
+ *
+ * This file defines the base styling, typography, color palette,
+ * and overall layout structure for the entire application.
+ * It uses CSS Custom Properties (variables) for easy theme management
+ * and includes basic responsive adjustments.
+ *
+ * Best practices:
+ * - Use CSS variables for consistent theming.
+ * - Apply a modern CSS reset for cross-browser consistency.
+ * - Define a clear, responsive layout for the main application container.
+ * - Provide base styles for common HTML elements (typography, buttons, forms).
+ * - Include utility classes for common styling patterns.
+ * - Implement media queries for basic responsiveness.
+ */
+
+/* 1. CSS Custom Properties (Variables) for Theming */
+:root
